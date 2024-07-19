@@ -1,0 +1,563 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    /* border: solid; */
+    width: 120px;
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+    /* top: 0;
+    left: 0px; */
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    position: fixed;
+    background-image: linear-gradient(to left, rgba(253, 26, 26, 0.701), rgba(232, 9, 173, 0.701), rgba(243, 140, 140, 0.679), rgba(236, 5, 197, 0.57), rgba(251, 34, 34, 0.663));
+
+}
+
+#check {
+    display: none;
+}
+
+.icons {
+    font-size: 2.0rem;
+    color: rgb(243, 243, 247);
+    position: absolute;
+    /* margin-top: -50px; */
+    right: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .a1 {
+    color: rgb(247, 246, 247);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 2.5rem;
+}
+
+.a1:hover {
+    color: rgb(240, 240, 233);
+    padding: 5px;
+    box-shadow: black 0px 1px 7px 2px;
+    border-radius: 7px;
+
+
+}
+
+#home {
+    position: static;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Food-Wallpapers-HD-For-Desktop.jpg);
+    height: 800px;
+
+    background-size: cover;
+}
+
+.main {
+    margin-top: 100px;
+
+    position: absolute;
+    width: 330px;
+    height: 180px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(248, 229, 243, 0.638);
+}
+
+.main:hover {
+    background-color: rgba(248, 245, 245, 0.866);
+    box-shadow: 0px 1px 7px 2px;
+
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+}
+
+.hd2 {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(62, 57, 57);
+}
+
+.p1 {
+    font-family: "Playwrite CU", cursive;
+    font-size: 20px;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input {
+    margin-bottom: 20px;
+    color: black;
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgb(41, 40, 40);
+
+}
+
+.meal {
+    background-color: rgb(247, 246, 246);
+    margin-top: 30px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+
+}
+
+.meal:hover {
+    box-shadow: 0px 1px 15px 2px;
+}
+
+.rate {
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#blog {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orange {
+    width: 500px;
+    height: 400px;
+}
+
+.blog2 {
+    width: 600px;
+    height: 300px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    text-decoration: none;
+    border: solid;
+    border-radius: 30px;
+    color: rgb(237, 12, 12);
+    padding: 5px 20px 5px 20px;
+}
+
+.sub:hover {
+    background-color: red;
+    color: white;
+}
+
+#pic {
+    padding: opx 10px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img2 {
+    /* border: solid; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.image2:hover {
+    box-shadow: rgb(21, 48, 5) 0px 1px 15px 2px;
+    border-radius: 5px;
+}
+
+.img01 {
+    background-image: url(https://media1.popsugar-assets.com/files/thumbor/q_eu4G_Yfvd1qUU7rkJYpC9Qalk/0x532:1560x2092/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2019/11/18/102/n/1922729/2010a3325dd3450317e273.27544324_/i/healthy-meal-prep-dinner-recipes.jpg);
+    background-size: cover;
+}
+
+.img02 {
+    background-image: url(https://media4.popsugar-assets.com/files/thumbor/hWv8KAqRvqeK0yT30Hvu-GaNfZc/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/12/01/652/n/1922398/dfc730ec36da2ede_Lotus-zoom.jpg);
+    background-size: cover;
+
+}
+
+.img03 {
+    background-image: url(https://i2.wp.com/www.myfoodstory.com/wp-content/uploads/2017/02/Mint-Strawberry-Moscow-Mule-2.jpg?w=1580);
+    background-size: cover;
+
+}
+
+.img04 {
+    background-image: url(https://myleapmagazine.ca/wp-content/uploads/2019/07/FoodFocus_FoodGuide_GovernmentofCanada.jpg);
+    background-size: cover;
+
+}
+
+.img05 {
+    background-image: url(https://media1.popsugar-assets.com/files/thumbor/7GGofXLs1IxdZEAQW9qy6mw3_l4/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/03/21/600/n/1922729/64f50bcc42cf1072__Rotated-Warrior-1-2700/i/Open-Rotated-Warrior-1.jpg);
+    background-size: cover;
+
+}
+
+.img06 {
+    background-image: url(https://i.pinimg.com/originals/f8/7f/2b/f87f2b03a63fbdb1f6178f779dc55f74.jpg);
+    background-size: cover;
+
+}
+
+#about {
+    margin: 10% 8% 0px 8%;
+}
+
+.sub-head {
+    position: relative;
+    font-size: 20px;
+    color: rgb(218, 9, 103)
+    
+}
+.sub-head::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    /* width: 10px; */
+    background: black;
+    transform: scaleX(0);
+    transition: transform 0.7s ease-out;
+    transform-origin:  bottom left;
+
+}
+.sub-head:hover::after{
+    transform: scaleX(1);
+    width: 100%;
+}
+
+.main-head {
+    position: relative;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 800;
+    /* border: solid; */
+    width: 120px;
+}
+.main-head::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    /* width: 10px; */
+    background: black;
+    transform: scaleX(0);
+    transition: transform 0.7s ease-out;
+    transform-origin:  bottom left;
+
+
+}
+.main-head:hover::after{
+    transform: scaleX(1);
+    width: 100%;
+}
+
+
+.section-head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-content {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-img>img {
+    width: 450px;
+}
+
+.informations {
+    margin-top: 1.3rem;
+}
+
+.info-box {
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 10px;
+}
+
+.info-box>span {
+    margin-left: 1rem;
+}
+
+#ftr {
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    background-color: darkmagenta;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.brands {
+    color: white;
+    font-size: 25px;
+}
+
+h5 {
+    font-style: italic;
+    font-size: 22px;
+    color: white;
+}
+
+#p6 {
+    color: white;
+}
+#p6:hover{
+    color: yellow;
+}
+
+.icn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 15px; */
+}
+.brands:hover{
+    color: rgb(219, 242, 11);
+}
+
+
+@media(max-width:1280px) {
+    .img2 {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width:992px) {
+    .header{
+        padding: 0px 10px;
+
+    }
+    .back {
+        width: 100%;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+    }
+    .about-img>img{
+        width: 360px;
+    }
+    #about {
+        margin-top: 130px;
+    }
+}
+
+@media(max-width:768px) {
+    .blog2 {
+        width: 400px;
+    }
+    .icons {
+        display: flex;
+    }
+
+    #cancel {
+        display: none;
+    }
+
+    #check:checked~.icons #menu {
+        display: none;
+    }
+
+    #check:checked~.icons #cancel {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgba(221, 0, 107, 0.863);
+        width: 100%;
+        display: none;
+    }
+
+    #check:checked~.navbar {
+        display: block;
+        height: 17rem;
+    }
+
+    .navbar a {
+
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0px;
+        text-align: center;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+    }
+
+    .meal {
+        margin-top: 80px;
+    }
+
+    .rate {
+        margin-top: 40px;
+    }
+
+    .hd2 {
+        font-size: 35px;
+    }
+
+    #blog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .orange {
+        width: 400px;
+    }
+
+    #about {
+        margin-top: 430px;
+    }
+
+    .about-body {
+        display: flex;
+        flex-direction: column;
+    }
+    #ftr {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:550px) {
+    .about-img>img{
+        width: 300px;
+    }
+    #about {
+        margin-top: 430px;
+    }
+}
+
+@media(max-width:480px) {
+    .main{
+        width: 150px;
+    }
+
+    .menu{
+        width: 150px;
+        
+    }
+
+    .about-img>img{
+        width: 260px;
+    }
+    .hd2 {
+        font-size: 20px;
+    }
+    .orange {
+        width: 250px;
+        height: 170px;
+    }
+    .blog2 {
+        width: 250px;
+    }
+    
+    #about {
+        margin-top: 1100px;
+    }
+
+    #ftr {
+        flex-wrap: wrap;
+    }
+    .footer1{
+        width: 200px;
+    }
+
+    .navbar a {
+
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0px;
+        text-align: center;
+    }
+    .icn{
+        width: 50px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .brands{
+font-size: 15px;
+    }
+  
+
+}
